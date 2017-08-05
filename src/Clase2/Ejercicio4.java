@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Ejercicio4 {
 
     public static void main(String[] args) {
+
         double n1;
         double n2;
         Scanner teclado = new Scanner(System.in);

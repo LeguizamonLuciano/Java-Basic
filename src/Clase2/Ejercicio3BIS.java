@@ -17,13 +17,13 @@ public class Ejercicio3BIS {
         System.out.println("Ingrese su contraseña");
         pass = teclado.nextLine();
         
-        if (user.equals(trueuser) & pass.equals(truepass)) {
+        if (user.equals(trueuser) && pass.equals(truepass)) {
             System.out.println("Bienvenido "+user);
         }
-        else if (!(user.equals(trueuser)) & pass.equals(truepass)) {
+        else if (!(user.equals(trueuser)) && pass.equals(truepass)) {
             System.out.println("Usuario incorrecto");
         }
-        else if (user.equals(trueuser) & !(pass.equals(truepass))) {
+        else if (user.equals(trueuser) && !(pass.equals(truepass))) {
             System.out.println("Contraseña incorrecta");
         }
     }
